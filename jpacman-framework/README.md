@@ -10,7 +10,7 @@
 
 ## How to work on the project ?
 
-Each student will work on a fork repository of [INFOM124-STUDENTS](https://github.com/INFOM124-Verification-et-Validation/INFOM124-STUDENTS). We expect you to follow some best software engineering practices during the courses:
+Each student will work on a fork repository of [INFOM124-STUDENTS-25-26](https://github.com/INFOM124-Verification-et-Validation/INFOM124-STUDENTS-25-26). We expect you to follow some best software engineering practices during the courses:
 
 - **Answer each exercise on a dedicated git branch** of your fork repository.
 - **Make sure you commit frequently** for each exercise, possibly more than once per exercise

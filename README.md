@@ -10,7 +10,7 @@ All the requirements discussed in this section refer to Linux or macOS distribut
 
 ### Java
 
-JDK 17 (or openJDK 17) or newer JDK version is required for this project. Here are the steps of installation of openJDK 17 on Linux and macOS distributions (for Windows, see [this tutorial](https://java.tutorials24x7.com/blog/how-to-install-openjdk-17-on-windows)).
+JDK 17 (or openJDK 17) or newer JDK version is required for this project. Here are the steps of installation of openJDK 17 on Linux and macOS distributions (for Windows, see [this tutorial](https://java.tutorials24x7.com/blog/how-to-install-openjdk-17-on-windows)). If you are on IntelliJ, you will be proposed to setup the Java version when you open the project. Follow the steps and you will be set.
 
 Installation:
 
@@ -29,7 +29,7 @@ If the returned version is openjdk 17, the installation is complete!
 
 ### Maven
 
-This project uses Maven. The installation of Maven is not mandatory but you can do it if you want.
+This project uses Maven. The installation of Maven is not mandatory but you can do it if you want. Again, if you use IntelliJ, it will propose you to setup Maven for you. **For those who use IntelliJ, be careful to open jpacman at root directory (so open the folder "jpacman-framework" instead of your whole GitHub repository in IntelliJ).**
 
 > "Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information."
 > -- <cite>[Apache Maven website](https://maven.apache.org/)</cite>
