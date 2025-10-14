@@ -1,6 +1,6 @@
 # TP 2 - Specification-based testing
 
-Let's focus on the movements of the ghosts. For both exercises 3 and 4, use the `GhostMapParser` class to support your JUnit tests. Feel free to explore how the `Ghost` parent class work.
+Let's focus on the movements of the ghosts. For both exercises 1 and 2, use the `GhostMapParser` class to support your JUnit tests. Feel free to explore how the `Ghost` parent class work.
 
 ## Exercise 1
 Open `npc.ghost.Clyde` class and implement at least 4 JUnit tests for the method `Optional<Direction> nextAiMove()` in a `ClydeTest` class. The specification-based testing framework will help you to devise test cases without understanding the implementation in depth (see `analysis-template.md` file).
