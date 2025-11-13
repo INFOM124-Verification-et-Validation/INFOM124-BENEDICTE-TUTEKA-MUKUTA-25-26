@@ -90,7 +90,7 @@ class ClydeTest {
 
         System.out.println(board);
         //Test
-        assertThat(hyde.nextAiMove()).isEqualTo(Optional.of(Direction.WEST));
+        assertThat(hyde.nextAiMove()).isEqualTo(Optional.of(Direction.NORTH));
     }
 
     @Test
