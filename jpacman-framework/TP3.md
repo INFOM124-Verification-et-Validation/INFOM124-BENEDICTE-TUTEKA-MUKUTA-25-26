@@ -4,11 +4,11 @@
 
 Analyze the requirements found in `docs/scenarios.md` and derive a decision table for the JPacman collisions from it. In this decision table you should encode the outcomes of collisions between two pairs of entities. You are free to filter out collisions that do not occur, such as two `Pellet` colliding. Make your decision table based on the table below. Note that this table is incomplete and may have too many or too few columns.
 
-|                 |        |       |        |    |
-|-----------------|--------|-------|--------|----|
-| **Collider**    | Ghost  | ??    | ??     | ?? |
-| **Collidee**    | Pellet | Ghost | Pellet | ?? |
-| **Consequence** | ??     | ??    | ??     | ?? |
+|                 |                       |             |                                     |             |                                      |                 |                                       |                                |
+|-----------------|-----------------------|-------------|-------------------------------------|-------------|--------------------------------------|-----------------|---------------------------------------|--------------------------------|
+| **Collider**    | Ghost                 | Pacman      | Pacman                              | Ghost       | Ghost                                | Ghost or Pacman | Pacman                                | Ghost                          |
+| **Collidee**    | Pellet                | Ghost       | Pellet                              | Pacman      | next square (Empty or With pellet)   | Wall            | Empty square                          | Empty Square                   |
+| **Consequence** | Pellet is not visible | Pacman Dies | Pellet Disappear and 10 points earn | Pacman Dies | Pellet in previous square is visible | The move fails  | Pacman move and point remain the same | Ghost move and nothing happens |
 
 
 Based on the decision table above, derive a JUnit test suite for the `level.PlayerCollisions` class using the **specification-based testing** (see the `analysis-template.md` file) and **structural testing** frameworks. You should be as rigorous as possible here. Think not only of collisions that result in something, but also on collisions where "nothing happens".
