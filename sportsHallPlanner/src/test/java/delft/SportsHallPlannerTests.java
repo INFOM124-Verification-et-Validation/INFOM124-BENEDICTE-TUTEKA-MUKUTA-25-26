@@ -15,4 +15,28 @@ import static delft.SportsHallPlanner.planHalls;
 
 class SportsHallPlannerTests {
 
+    private Set<Property> properties;
+    private Map<Field,Integer> fields;
+    private  List<Request> requests;
+    private  List<SportsHall> sportsHalls;
+
+
+
+    @BeforeEach
+    void init() {
+        properties  = new HashSet<>();
+        fields  = new HashMap();
+        requests =  new ArrayList<>();
+        sportsHalls =  new ArrayList<>();
+
+    }
+
+    @Test
+    void testNoPropertiesRequest() {
+
+        Request request = new Request(properties, BASKETBALL, 3);
+
+
+
+    }
 }
